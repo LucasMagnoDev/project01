@@ -1,0 +1,113 @@
+.logoTipo {
+    visibility: hidden;
+
+}
+
+#principal{
+    width: 100%;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, tahoma, arial;
+
+}
+
+div#principal{
+    background-image: url(../image/abstract-1780182_1920.png);
+    background-position: left top;
+    background-size: auto, cover;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    height: 60px;
+    background: rgba(0, 0, 0, 0.527);
+    position: relative;
+    color: inherit;
+}
+
+header nav{
+    right: 0;
+    top: 0;
+    height: 100%;
+    position: absolute;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+   display: inline-block; 
+   list-style: none;
+   margin: 15px 10px 0 0;
+   padding: 6px 8px;
+   text-transform: uppercase;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    display: inline-block;
+}
+
+section#primeiraParte {
+   
+    width: 40%;
+    margin-left: 37px;
+    padding: 5px 0px 5px 12px;
+    margin-top: 20px;
+    
+   
+}
+
+section#segundaParte {
+   
+    width: 50%;
+    margin-left: 37px;
+    padding: 5px 0px 5px 12px;
+    margin-top: 20px;
+    position: absolute;
+
+   
+}
+
+section p {
+    line-height:20px;
+    letter-spacing: 1px;
+}
+
+article {
+    margin-bottom: 50px;
+    background:#ccc;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: rgba(43, 39, 39, 0.863);
+    border-radius: 2em;
+
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    
+}
+
+footer p{
+    padding-left:47%;
+    color: white;
+}
+
